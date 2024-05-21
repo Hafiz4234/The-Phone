@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Message_main"
+    android:background="@drawable/backgroung_message">
+
+
+    <EditText
+        android:id="@+id/etmessage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Type Message"
+        android:inputType="text|textLongMessage|textMultiLine"
+        android:textAlignment="viewStart"
+        android:textColor="#F8F4F4"
+        android:textColorHint="#B1B60F"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="330dp"
+        android:text="Send"
+        android:textColor="#EFE9E9"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etnumber"
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#0F7C0C"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:inputType="phone"
+        android:textColor="#9BEF0F"
+        android:textColorHint="#B1B60F"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

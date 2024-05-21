@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dialar"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".Dialar_main">
+
+        <EditText
+            android:id="@+id/etDialarid"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="40dp"
+            android:ems="10"
+            android:hint="Enter Phone Number "
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColorHint="#B7710F87"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="323dp" />
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="155dp"
+            app:srcCompat="@drawable/dialar"
+            app:shapeAppearanceOverlay="@style/circular"
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgbtnCall"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginRight="155dp"
+            android:contentDescription="dial"
+            app:shapeAppearanceOverlay="@style/circular"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/dial" />
+
+
+</RelativeLayout>

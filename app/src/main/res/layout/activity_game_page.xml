@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game_page"
+    android:background="@drawable/background_game">
+
+    <Button
+        android:id="@+id/NumberGuessing"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#5D8E43"
+        android:text="Number Guess"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/RockPaper"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="360dp"
+        android:backgroundTint="#5D8E43"
+        android:text="RockPaperScissors"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

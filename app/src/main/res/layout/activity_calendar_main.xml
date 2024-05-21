@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#C3DA9090"
+    android:backgroundTint="#C19595"
+    android:foregroundGravity="fill_horizontal|bottom|clip_horizontal"
+    tools:context=".Calendar_main">
+
+    <CalendarView
+        android:layout_width="371dp"
+        android:layout_height="467dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="center"
+        android:visibility="visible" />
+
+</LinearLayout>

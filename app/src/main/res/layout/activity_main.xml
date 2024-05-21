@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    tools:context=".MainActivity">
+
+    <TextClock
+
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="45dp"
+        android:text="Time"
+        android:textColor="#B56767"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:onClick="openTime_main"
+        android:clickable="true"/>
+
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="80dp"
+        android:text="Date"
+        android:textColor="#6C2972"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:onClick="openDate_main"
+        android:clickable="true"/>
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgDialar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp"
+        android:contentDescription="DialarContent"
+        android:onClick="openDialar_main"
+        android:scaleType="fitCenter"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/dialar_main" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgMessage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="MessageContent"
+        android:onClick="openMessage_main"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="150dp"
+        android:scaleType="centerInside"
+        android:clickable="true"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/message_main" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgCalculator"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="250dp"
+        android:clickable="true"
+        android:contentDescription="CalculatorContent"
+        android:onClick="openCalculator_main_page"
+        android:scaleType="centerInside"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/calculator_main" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgNote"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="400dp"
+        android:contentDescription="NoteContent"
+        android:scaleType="centerInside"
+        app:shapeAppearanceOverlay="@style/circular"
+        app:srcCompat="@drawable/note_main"
+        android:onClick="openNote_main"
+        android:clickable="true"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgGame"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp"
+        android:contentDescription="GameContent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/game_main"
+        android:onClick="openGame_page"
+        android:clickable="true"
+        app:shapeAppearanceOverlay="@style/circular"/>
+
+    <TextView
+        android:id="@+id/tvDialarMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="350dp"
+        android:text="Dialar"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvMessageMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="350dp"
+        android:text="Message"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCalculatorMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="350dp"
+        android:text="Calculator"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNoteMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="500dp"
+        android:text="Note"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGameMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="500dp"
+        android:text="Game"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_calculator_main"
+    tools:context=".Calculator_main_page">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/btnArithmetic"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="271dp"
+        android:background="@drawable/arth_button"
+        android:clickable="true"
+        android:contentDescription="ArithmeticButtonContent"
+        android:onClick="openArithmetic_main_page"
+        android:textAlignment="center" />
+    
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/btnTemp"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:background="@drawable/temp_button"
+        android:layout_marginTop="337dp"
+        android:layout_marginLeft="6dp"
+        android:contentDescription="TempButtonContent"
+        android:onClick="openTempConversion_page"
+        android:clickable="true"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:id="@+id/btnLength"
+        android:background="@drawable/length_button"
+        android:layout_marginTop="405dp"
+        android:layout_marginStart="6dp"
+        android:contentDescription="LengthButtonContent"
+        android:onClick="openLenghtConversion"
+        android:clickable="true"
+        />
+
+
+
+</RelativeLayout>

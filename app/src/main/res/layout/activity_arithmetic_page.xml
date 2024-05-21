@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_arithmetic"
+    tools:context=".Arithmetic_page">
+
+
+    <EditText
+        android:id="@+id/etFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginRight="75dp"
+        android:ems="10"
+        android:hint="Enter first value"
+        android:inputType="numberDecimal"
+        android:textColorHint="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginRight="65dp"
+        android:ems="10"
+        android:hint="Enter second value"
+        android:inputType="numberDecimal"
+        android:textColorHint="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAns"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="297dp"
+        android:layout_marginRight="60dp"
+        android:text="Answer"
+        android:textAlignment="viewStart"
+        android:textColor="#1610C1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgplus"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="350dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/plus" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgMinus"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="350dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/minus" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgMultiply"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="450dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/multiply" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgDivision"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="450dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/division" />
+</RelativeLayout>

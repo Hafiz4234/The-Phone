@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="The Phone"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".NoteEditor"
+            android:exported="false" />
+        <activity
+            android:name=".RockPaperScissors"
+            android:exported="false" />
+        <activity
+            android:name=".NumberGuessingGame"
+            android:exported="false" />
+
+        <activity
+            android:name=".Note_main"
+            android:exported="false" />
+        <activity
+            android:name=".Game_page"
+            android:exported="false" />
+        <activity
+            android:name=".Calendar_main"
+            android:exported="false" />
+        <activity
+            android:name=".Time_main"
+            android:exported="false" />
+
+        <receiver
+            android:name=".Alarm"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".LengthConversion_page"
+            android:exported="false" />
+        <activity
+            android:name=".TempConversion_page"
+            android:exported="false" />
+        <activity
+            android:name=".Message_main"
+            android:exported="false" />
+        <activity
+            android:name=".Calculator_main_page"
+            android:exported="false" />
+        <activity
+            android:name=".Arithmetic_page"
+            android:exported="false" />
+        <activity
+            android:name=".Dialar_main"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
